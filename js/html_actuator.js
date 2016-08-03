@@ -68,25 +68,25 @@ HTMLActuator.prototype.addTile = function (tile) {
   var rank = tile.value;
   var tileContent = "";
   if (rank == 2) {
-    tileContent = "Relax";
-  } else if (rank == 4) {
     tileContent = "Breathe";
+  } else if (rank == 4) {
+    tileContent = "Relax";
   } else if (rank == 8) {
     tileContent = "Focus";
   } else if (rank == 16) {
-    tileContent = "Let Go";
-  } else if (rank == 32) {
     tileContent = "Drift";
+  } else if (rank == 32) {
+    tileContent = "Melt";
   } else if (rank == 64) {
-    tileContent = "Sinking";
+    tileContent = "Sleep";
   } else if (rank == 128) {
-    tileContent = "Down";
+    tileContent = "Sink";
   } else if (rank == 256) {
-    tileContent = "Deeper";
+    tileContent = "Blank";
   } else if (rank == 512) {
     tileContent = "Empty";
   } else if (rank == 1024) {
-    tileContent = "Blank";
+    tileContent = "Fall";
   } else if (rank == 2048) {
     tileContent = "Drop";
   } else {
